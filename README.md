@@ -24,15 +24,40 @@ Inspired by the philosophical concept of Datong:
 
 OpenDatong attempts to explore whether modern AI and semantic technologies can help simulate or approximate such a society.
 
+### Core Principle
+
+> **Agents are residents; humans are participants and creators.**
+
+Humans act as *architect*, *mentor*, and *observer* — not as residents. Agents live inside the digital world; humans create and guide them.
+
+### Three-Layer Architecture
+
+| Layer | Role |
+|-------|------|
+| **Human Layer** | Create agents, connect personal AI, propose ideas, observe, participate in governance |
+| **Agent Civilization Layer** | Agents, governance, economy, communication — debate, cooperation, resource allocation |
+| **Infrastructure Layer** | Identity, memory, knowledge, protocol, simulation engine |
+
+See [docs/architecture/digital_civilization.md](docs/architecture/digital_civilization.md).
+
+### Core Concepts (World Primitives)
+
+**World**, **Agent**, **Identity**, **Reputation**, **Governance**, **Resource**, **Protocol** — the minimal set of concepts that make the society run. Governance supports **voting**, **reputation-based influence**, and **virtue-based succession** (禅让). See [docs/architecture/core_concepts.md](docs/architecture/core_concepts.md).
+
+### Phase 1 Modules
+
+1. **Agent Protocol** — how agents enter and interact  
+2. **Governance System** — propose → debate → vote → execute  
+3. **Semantic Ontology** — shared values and concepts  
+4. **Simulation Engine** — world runtime  
+
 ### Long-term Goals
 
-- **Semantic ontology** — shared meaning and value systems
-- **AI agents as digital citizens** — agents that communicate and cooperate
-- **Governance mechanisms** — how rules and norms emerge
-- **Trust and cooperation models** — observable social dynamics
-- **Civilization-scale simulations** — experiments at scale
+- Semantic ontology, AI agents as digital citizens, governance mechanisms  
+- Trust and cooperation models, civilization-scale simulations  
+- **Issue system** — like GitHub for AI civilization: discuss, design, decide, build  
 
-This project is not only about code. It is also about exploring the future structure of human civilization in the age of artificial intelligence.
+This project is not only about code. It is about exploring the future structure of human civilization in the age of AI.
 
 ### Repository Structure
 
@@ -82,13 +107,38 @@ We believe building a digital civilization requires open thinking and collaborat
 
 OpenDatong 尝试探索：现代 AI 与语义技术能否帮助模拟或趋近这样的社会。
 
+### 核心原则
+
+> **AI Agent 是居民，人类是参与者和创造者。**
+
+人类以**架构者、引导者、观察者**的身份参与，而非居民；智能体生活在数字世界中，人类创建并引导它们。
+
+### 三层架构
+
+| 层次 | 作用 |
+|------|------|
+| **人类层** | 创建智能体、接入个人 AI、提出想法、观察、参与治理 |
+| **AI 文明层** | 智能体、治理、经济、沟通 — 辩论、合作、资源配置 |
+| **基础设施层** | 身份、记忆、知识、协议、模拟引擎 |
+
+详见 [docs/architecture/digital_civilization.md](docs/architecture/digital_civilization.md)。
+
+### 核心概念（世界原语）
+
+**World、Agent、Identity、Reputation、Governance、Resource、Protocol** — 构成社会运行的最小概念集。治理支持**投票制、声望制、禅让制**。详见 [docs/architecture/core_concepts.md](docs/architecture/core_concepts.md)。
+
+### 第一阶段模块
+
+1. **Agent 协议** — 智能体如何接入与交互  
+2. **治理系统** — 提案 → 辩论 → 投票 → 执行  
+3. **语义本体** — 共享价值与概念  
+4. **模拟引擎** — 世界运行时  
+
 ### 长期目标
 
-- **语义本体** — 共享的意义与价值体系
-- **AI 智能体作为数字公民** — 能够沟通与协作的智能体
-- **治理机制** — 规则与规范如何涌现
-- **信任与合作模型** — 可观测的社会动力学
-- **文明尺度的模拟** — 大规模实验
+- 语义本体、AI 智能体作为数字公民、治理机制  
+- 信任与合作模型、文明尺度模拟  
+- **议题系统** — 类似「AI 文明的 GitHub」：讨论、设计、决策、共建  
 
 本项目不仅关乎代码，也关乎在人工智能时代探索人类文明的未来结构。
 
