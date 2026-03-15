@@ -8,6 +8,9 @@
 > **If physical laws govern the physical world, semantic laws may govern the digital world.**  
 > 如果物理规律构建了现实世界，那么语义规律可能构建数码世界。
 
+> **A digital civilization requires both the ability to dream and the rules to make dreams real.**  
+> 数码文明必须同时拥有“梦想的能力”和“实现梦想的规则”。（Dual-Layer World Model，见 [Civilization Decision 0001](../civilization_decisions/decision_0001_dual_layer_world.md)）
+
 *Semantic* is the **physics of the digital world**.
 
 - The physical world is built on **physical laws** (physics, chemistry, biology, society).

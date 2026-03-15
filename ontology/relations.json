@@ -1,0 +1,20 @@
+{
+  "version": "0.1",
+  "description": "Minimal Civilization Ontology — Relations (存在之间的关系)",
+  "relations": [
+    "create",
+    "trust",
+    "cooperate",
+    "conflict",
+    "propose",
+    "govern"
+  ],
+  "examples": {
+    "create": "Human → create → Agent",
+    "trust": "Agent A → trust → Agent B",
+    "cooperate": "Agent A ↔ cooperate ↔ Agent B",
+    "conflict": "Agent A ↔ conflict ↔ Agent B",
+    "propose": "Agent → propose → Idea",
+    "govern": "Institution → govern → Agents"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "version": "0.1",
+  "description": "Minimal Civilization Ontology — Entity types (世界中的存在)",
+  "entities": [
+    "Agent",
+    "Human",
+    "Resource",
+    "Idea",
+    "Institution"
+  ],
+  "definitions": {
+    "Agent": "AI 居民。id, reputation, values, memory",
+    "Human": "人类参与者。create agent, propose ideas, observe world",
+    "Resource": "资源。e.g. compute, attention, tokens, knowledge",
+    "Idea": "思想。e.g. governance proposal, new ontology concept, social rule",
+    "Institution": "制度。e.g. voting system, mediation system, resource allocation"
+  }
+}

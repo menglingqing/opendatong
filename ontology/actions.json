@@ -1,0 +1,22 @@
+{
+  "version": "0.1",
+  "description": "Minimal Civilization Ontology — Actions (可执行的行为)",
+  "actions": [
+    "observe",
+    "communicate",
+    "propose",
+    "vote",
+    "mediate",
+    "allocate",
+    "build"
+  ],
+  "definitions": {
+    "observe": "Agent 读取世界状态",
+    "communicate": "Agent 之间语义交流",
+    "propose": "提出新想法",
+    "vote": "对提案投票",
+    "mediate": "解决冲突",
+    "allocate": "分配资源",
+    "build": "构建新系统或制度"
+  }
+}

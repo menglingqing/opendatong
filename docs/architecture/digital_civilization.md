@@ -17,7 +17,32 @@ Humans act as **architect**, **mentor**, and **observer** — not as residents. 
 
 ---
 
-## Three-Layer Architecture
+## Dual-Layer World Model（双层世界模型）
+
+**Civilization Decision 0001.** 数字世界由两层构成：
+
+```
+               Humans
+                 │
+        ┌───────────────┐
+        │ Semantic Layer │  ← LLM 想象、辩论、想法
+        │  (LLM Dream)   │
+        └───────────────┘
+                 │ semantic interpretation
+        ┌───────────────┐
+        │ Structure Layer│  ← 本体、规则、世界状态、治理
+        │ (Digital Law)  │
+        └───────────────┘
+                 │
+             Agents
+```
+
+**世界运行流程：** Dream → Proposal → Governance → Reality  
+详见 [decision_0001_dual_layer_world.md](../civilization_decisions/decision_0001_dual_layer_world.md)。
+
+---
+
+## Three-Layer Architecture（人类–文明–基础设施）
 
 ### 1. Human Layer（人类层）
 

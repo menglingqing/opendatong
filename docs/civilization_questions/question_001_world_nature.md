@@ -56,16 +56,22 @@ Like: CPU + Operating System + Applications.
 
 ## 结论 (Conclusion)
 
-_待讨论后填写。_
+**已采纳：双层世界模型（Dual-Layer World Model）**
+
+既不采用纯 A（梦境空间）也不采用纯 B（结构化系统），而是：
+
+- **Layer 1** Semantic Dream Layer — LLM 想象、辩论、想法
+- **Layer 2** Structured Reality Layer — 本体、规则、世界状态、治理
+
+流程：**Dream → Proposal → Governance → Reality**
+
+详见 [Civilization Decision 0001](../civilization_decisions/decision_0001_dual_layer_world.md)。
 
 ---
 
 ## 相关分支 (Branches)
 
-根据讨论结果可创建：
-
-- `dream-world` — 对应 Option A
-- `structured-world` — 对应 Option B
+原设想分支 `dream-world` / `structured-world` 已由统一的双层架构替代，不再单独开分支。
 
 ---
 
