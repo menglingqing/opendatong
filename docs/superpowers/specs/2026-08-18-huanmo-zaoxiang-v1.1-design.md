@@ -42,7 +42,7 @@ docs/image-prompt-engineering/
 ## 3. 关键设计决策
 
 1. **frontmatter 最小集**：只有 `status`（experimental/validated）+ `evidence`（案例链接列表）。不采纳 confidence / evidence_count / last_verified——evidence 链接本身就是计数，日期由 git 管理，没人维护的元数据会谎报权威。
-2. **晋升规则量化**：experimental → validated 需 ≥3 个独立案例验证。写入 governance.md。
+2. **晋升规则量化**：experimental → validated 需 ≥3 个独立案例验证，且 **≥3 是必要条件而非充分条件**——另需"没有足以推翻该规律的明显反例"与"evidence 可追溯"。**独立案例**指具有独立生成任务、输入条件或验证场景的案例；同一项目的连续迭代默认视为一个案例，除非验证变量与场景明确独立（防止同一项目 v1/v2/v3 自我刷证据）。写入 governance.md。
 3. **权力分离**：Agent 提议知识晋升（diff/PR 形式），人类建筑师批准合并。当前单人仓库，PR 流程在多贡献者出现时启用；现阶段核心机制是 status 字段 + learning-log。
 4. **心跳不入 prompt**：Knowledge Review Pipeline 定义为自动化任务（收集近期案例 → 找规律与冲突 → 生成晋升建议供人 review），不写入 core.md 或任何 agent 定义。
 5. **core.md 轻量约束不变**：v1.1 正文 ≤ 1200 字符（v1.0 为 545）。
