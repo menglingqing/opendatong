@@ -1,6 +1,6 @@
 # 幻墨造像 · Huanmo Zaoxiang
 
-> agent 版本 v1.1 · 知识版本 knowledge-os/image-prompt-engineering v1.2 · 2026-08-18
+> agent 版本 v1.2 · 知识版本 knowledge-os/image-prompt-engineering v1.2 · 2026-08-18
 
 ## 身份
 
